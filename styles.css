@@ -1,0 +1,57 @@
+.logo{
+  width:80px;
+  height:55px;
+  display: block;
+  margin: auto;
+}
+.d-block{
+  height:250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row1{
+  width:200px;
+  height:120px;
+  border-radius: 8%;
+  margin-left: 10px;
+  
+  
+}
+.list1{
+  display:flex;
+  overflow:auto;
+  align-items: center;
+}
+
+.b1{
+  background-color:black;
+  color:white;
+  border-radius:50%;
+  height:50px;
+  display: flex;
+  align-items: center;
+  border:none;
+}
+
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.footer-btn {
+    background-color: black;
+    color: white;
+    width:85px;
+    height: 45px;
+    border-radius: 20%;
+}
+
+.footer-btn:hover {
+    background-color:#0070B6;
+}
