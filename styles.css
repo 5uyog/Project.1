@@ -4,24 +4,46 @@
   display: block;
   margin: auto;
 }
+
+.heading{
+  color:white;
+  font-size:25px;
+}
 .d-block{
   height:250px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.row1{
+.rows{
   width:200px;
   height:120px;
   border-radius: 8%;
   margin-left: 10px;
   
-  
 }
-.list1{
+.trend{
   display:flex;
   overflow:auto;
   align-items: center;
+}
+
+.langbox{
+     width:400px;
+     height:250px;
+     margin-left: 10px;
+     margin-bottom: 5px;
+      background-color:grey;
+  
+}
+.lang{
+  
+  display: flex;
+  overflow: auto;
+}
+.langimg{
+  width:400px;
+  height:250px;
 }
 
 .b1{
@@ -37,7 +59,7 @@
 .fixed-footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -55,3 +77,4 @@
 .footer-btn:hover {
     background-color:#0070B6;
 }
+
