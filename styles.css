@@ -25,36 +25,42 @@
 .trend{
   display:flex;
   overflow:auto;
-  align-items: center;
 }
 
-.langbox{
+.langrec{
      width:400px;
      height:250px;
      margin-left: 10px;
      margin-bottom: 5px;
-      background-color:grey;
+     background-color:black;
+     border: 0.5px solid grey;
+     border-radius: 5%;
+    display: flex;
+    justify-content: right;
+    
+  
+  
+}
+.langbox{
+  display: flex;
+  overflow: auto;
+  
+}
+.langimg{
+  width:380px;
+  height:248px;
+  
   
 }
 .lang{
+  color:#0f52ba;
+  font-family:  "Brush Script MT", cursive;
+  font-size: 40px;
   
-  display: flex;
-  overflow: auto;
-}
-.langimg{
-  width:400px;
-  height:250px;
+  
 }
 
-.b1{
-  background-color:black;
-  color:white;
-  border-radius:50%;
-  height:50px;
-  display: flex;
-  align-items: center;
-  border:none;
-}
+
 
 .fixed-footer {
     position: fixed;
