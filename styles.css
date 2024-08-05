@@ -29,7 +29,7 @@
 
 .langrec{
      width:400px;
-     height:250px;
+     height:230px;
      margin-left: 10px;
      margin-bottom: 5px;
      background-color:black;
@@ -37,8 +37,7 @@
      border-radius: 5%;
     display: flex;
     justify-content: right;
-    
-  
+    align-items: center;
   
 }
 .langbox{
@@ -47,16 +46,15 @@
   
 }
 .langimg{
-  width:380px;
-  height:248px;
-  
+  width:320px;
+  height:228px;
+  border-radius:10%;
   
 }
 .lang{
-  color:#0f52ba;
+  color:silver;
   font-family:  "Brush Script MT", cursive;
-  font-size: 40px;
-  
+  font-size:40px;
   
 }
 
