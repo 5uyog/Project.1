@@ -4,6 +4,12 @@
   display: block;
   margin: auto;
 }
+#theme{
+  height:50px;
+  border-radius:50%;
+  background-color:black;
+  color:white;
+}
 
 .navbar{
   list-style-type: none;
