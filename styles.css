@@ -5,10 +5,33 @@
   margin: auto;
 }
 
+.navbar{
+  list-style-type: none;
+  background-color: #333333;
+  margin-top: 5px;
+  border-radius:50px;
+}
+li {
+  float: left;
+  
+}
+li a {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:#0070B6;
+}
+
+
 .heading{
   color:white;
   font-size:25px;
 }
+
+
 .d-block{
   height:250px;
   margin-top: 10px;
@@ -75,7 +98,7 @@
     color: white;
     width:85px;
     height: 45px;
-    border-radius: 20%;
+    border-radius:20px;
 }
 
 .footer-btn:hover {
