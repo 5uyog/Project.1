@@ -11,9 +11,14 @@
 .thembtn{
   height: 50px;
   border-radius: 50%;
-  background-color:black;
-  color:white;
+  background-color:white;
+  color:crimson;
   float: right;
+  animation: color 4s infinite alternate;
+}
+@keyframes color{
+  from {background-color:white;}
+  to {background-color: black;}
 }
 
 
@@ -42,7 +47,7 @@ li a:hover {
 .heading{
   color:white;
   font-size:25px;
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 0px 0px 5px black;
   font-family:Georgia, sans-serif;
 }
 
@@ -69,7 +74,7 @@ li a:hover {
      height:230px;
      margin-left: 10px;
      margin-bottom: 5px;
-     background-color:black;
+     background-image: linear-gradient(to right,black, hsla(210, 92%, 54%, 1));
      border: 0.5px solid grey;
      border-radius: 5%;
     display: flex;
@@ -102,8 +107,8 @@ li a:hover {
         display: flex;
         justify-content: center;
         width: 100%;
-    
 }
+
 
 .bottombuttongroup{
         
@@ -134,6 +139,12 @@ li a:hover {
       color: rgb(255, 255, 255);
       border-radius: 50%;
       border:none;
+      cursor: pointer;
+      
+  
+}
+.circlebutton:active{
+  transform: translateY(3px);
 }
 
 #btn1{
