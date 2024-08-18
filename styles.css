@@ -1,9 +1,10 @@
 .logo{
   width:80px;
   height:55px;
-  display: block;
-  margin: auto;
+  display: inline;
+  
 }
+
 #dark{
   display: none;
 }
@@ -18,7 +19,7 @@
 
 .navbar{
   list-style-type: none;
-  background-color:#26282A;
+  background-color: #38444d;
   margin-top: 5px;
   border-radius:50px;
 }
@@ -33,26 +34,28 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color:#0070B6;
+  background-color:hsla(210, 92%, 54%, 1);
+  font-size: 20px;
 }
 
 
 .heading{
   color:white;
   font-size:25px;
+  text-shadow: 2px 2px 5px red;
+  font-family:Georgia, sans-serif;
 }
 
 
 .d-block{
   height:250px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin:10px ;
 }
 
 .rows{
   width:200px;
   height:120px;
-  border-radius: 8%;
+  border-radius: 1px 20px;
   margin-left: 10px;
   
 }
@@ -88,34 +91,67 @@ li a:hover {
 .lang{
   color:silver;
   font-family:  "Brush Script MT", cursive;
-  font-size:40px;
+  font-size:23px;
   
 }
 
-
-
-.fixed-footer {
-    position: fixed;
-    left: 0;
-    bottom: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-  
+.optbtn{
+        
+        position: fixed;
+        bottom: 11%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
 }
 
-.footer-btn {
-    background-color: black;
-    color: white;
-    width:85px;
-    height: 45px;
-    border-radius:20px;
+.bottombuttongroup{
+        
+        display: flex;
+        justify-content: center;
 }
 
-.footer-btn:hover {
-    background-color:#0070B6;
+.bottombuttonsingle{
+        display: flex;
+        justify-content: center;
 }
-.gif{
-  height: 400px;
-  width:432px;
+
+
+
+.bottombuttonclub{
+
+        position:fixed;
+        bottom: 2.0%;
+        width:100%;
+        
+}
+ 
+.circlebutton{
+      background-color:hsla(210, 92%, 54%, 1);
+      height: 60px;
+      width: 60px;
+      margin: 2.5px;
+      color: rgb(255, 255, 255);
+      border-radius: 50%;
+      border:none;
+}
+
+#btn1{
+  display: none;
+}
+
+#btn2{
+  display: none;
+}
+
+#btn3{
+  display: none;
+}
+
+#btn4{
+  display: none;
+}
+
+#btn5{
+  display: none;
 }
