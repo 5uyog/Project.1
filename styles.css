@@ -21,6 +21,20 @@
   to {background-color: black;}
 }
 
+.spinner{
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 20px solid green;
+  border-top: 20px solid red;
+  border-bottom: 20px solid red;
+  animation: spin 2s linear infinite alternate;
+
+}
+@keyframes spin{
+  to{transform: rotate(180deg);}
+}
 
 .navbar{
   list-style-type: none;
