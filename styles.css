@@ -22,14 +22,15 @@
 }
 
 .spinner{
-  background-color: yellow;
+  background-color: white;
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 20px solid green;
-  border-top: 20px solid red;
-  border-bottom: 20px solid red;
-  animation: spin 2s linear infinite alternate;
+  border-top: 20px solid orange;
+  border-right: 20px solid orange;
+  border-bottom: 20px solid green;
+  border-left: 20px solid green;
+  animation: spin 1s linear infinite alternate;
 
 }
 @keyframes spin{
