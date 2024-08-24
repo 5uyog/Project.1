@@ -21,21 +21,72 @@
   to {background-color: black;}
 }
 
-.spinner{
-  background-color: white;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border-top: 20px solid orange;
-  border-right: 20px solid orange;
-  border-bottom: 20px solid green;
-  border-left: 20px solid green;
-  animation: spin 1s linear infinite alternate;
+.solar{
+  font-size: 10px;
+  height: 640px;
+  width: 640px;
+  position: relative;
+  perspective: 2px;
 
 }
-@keyframes spin{
-  to{transform: rotate(180deg);}
+.sun{
+  position: absolute;
+  top: 240px;
+  left: 240px;
+  width: 160px;
+  height: 160px;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 50px white;
+  
 }
+.earth,.moon{
+  position: absolute;
+  border-style: solid;
+  border-color: white
+                transparent
+                transparent
+                transparent;
+  border-radius: 50%;
+  border-width: 1.5px 1.5px 0 0;
+}
+.earth{
+  top: 80px;
+  left: 80px;
+  width: 450px;
+  height:450px;
+  animation: orbit 30s linear infinite;
+}
+.moon{
+  top: 0;
+  right: 0;
+  width: 130px;
+  height: 130px;
+  animation: orbit 2.5s linear infinite;
+}
+.earth::before,.moon::before{
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+}
+.earth::before{
+  top: 45px;
+  right: 45px;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+.moon::before{
+  top: 13px;
+  right: 3px;
+  width: 19px;
+  height: 19px;
+  background-color: silver;
+}
+@keyframes orbit{
+  to{transform: rotate(360deg);}
+}
+
 
 .navbar{
   list-style-type: none;
