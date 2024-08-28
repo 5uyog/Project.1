@@ -26,7 +26,6 @@
   height: 640px;
   width: 640px;
   position: relative;
-  perspective: 2px;
 
 }
 .sun{
@@ -37,7 +36,7 @@
   height: 160px;
   background-color: yellow;
   border-radius: 50%;
-  box-shadow: 0 0 50px white;
+  box-shadow: 0 0 50px orangered;
   
 }
 .earth,.moon{
@@ -62,7 +61,7 @@
   right: 0;
   width: 130px;
   height: 130px;
-  animation: orbit 2.5s linear infinite;
+  animation: orbit 5s linear infinite;
 }
 .earth::before,.moon::before{
   content: '';
@@ -126,7 +125,7 @@ li a:hover {
 .rows{
   width:200px;
   height:120px;
-  border-radius: 1px 20px;
+  border-radius: 1px 10px;
   margin-left: 10px;
   
 }
@@ -198,7 +197,7 @@ li a:hover {
 }
  
 .circlebutton{
-      background-color:hsla(210, 92%, 54%, 1);
+      background-color:black;
       height: 60px;
       width: 60px;
       margin: 2.5px;
@@ -213,22 +212,8 @@ li a:hover {
   transform: translateY(3px);
 }
 
-#btn1{
+#btn1,#btn2,#btn3,#btn3,#btn4,#btn5{
   display: none;
 }
 
-#btn2{
-  display: none;
-}
 
-#btn3{
-  display: none;
-}
-
-#btn4{
-  display: none;
-}
-
-#btn5{
-  display: none;
-}
