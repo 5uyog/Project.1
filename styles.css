@@ -37,7 +37,7 @@ pre {
 }
 
 .lineOfCode {
-  animation: typingEffect 1.5s steps(14,end) forwards 1.5s, caretAnim 500ms steps(4, end) 0s infinite;
+  animation: typingEffect 1.5s steps(30,end) forwards 1.5s, caretAnim 500ms steps(30, end) 0s infinite;
   overflow: hidden;
   width: 0;
   height: auto;
@@ -56,29 +56,24 @@ pre {
       border-width: 2px;
   }
   5% {
-      width: auto;
+      width: 0;
       height: auto;
       border-width: 2px;
   }
-  93% {
-      border-width: 2px;
-  }
   100% {
-      width: auto;
+      width: 15ch;
       height: auto;
       border-width: 0;
   }
 }
 @keyframes caretAnim {
-  0% {
+  0%,100% {
       border-color: transparent;
   }
   50% {
       border-color: #ffffff;
   }
-  100% {
-      border-color: transparent;
-  }
+ 
 }
 
 .solar{
