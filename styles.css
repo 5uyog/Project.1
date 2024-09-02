@@ -23,14 +23,18 @@
   to{color: white;}
 }
 
-
+.textbox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 pre {
   font-size: 1.3rem;
   line-height: 2rem;
   margin: 1rem 0 0 1rem;
   width: fit-content;
   padding: 2rem;
-  background-color: #0e1d5e;
+  background-color: #2b2e59;
   color: white;
   border-radius: 12px;
   
@@ -77,7 +81,6 @@ pre {
 }
 
 .solar{
-  font-size: 10px;
   height: 640px;
   width: 640px;
   position: relative;
