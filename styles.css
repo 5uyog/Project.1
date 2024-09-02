@@ -23,6 +23,64 @@
   to{color: white;}
 }
 
+
+pre {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 1rem 0 0 1rem;
+  width: fit-content;
+  padding: 2rem;
+  background-color: #0e1d5e;
+  color: white;
+  border-radius: 12px;
+  
+}
+
+.lineOfCode {
+  animation: typingEffect 1.5s steps(14,end) forwards 1.5s, caretAnim 500ms steps(4, end) 0s infinite;
+  overflow: hidden;
+  width: 0;
+  height: auto;
+  border-right: 2px solid #ffffff;
+}
+.lineOfCode:nth-of-type(2) {
+  height: 0;
+  animation-delay: 3100ms;
+}
+.lineOfCode:nth-of-type(3) {
+  height: 0;
+  animation-delay: 5200ms;
+}
+@keyframes typingEffect {
+  0% {
+      border-width: 2px;
+  }
+  5% {
+      width: auto;
+      height: auto;
+      border-width: 2px;
+  }
+  93% {
+      border-width: 2px;
+  }
+  100% {
+      width: auto;
+      height: auto;
+      border-width: 0;
+  }
+}
+@keyframes caretAnim {
+  0% {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #ffffff;
+  }
+  100% {
+      border-color: transparent;
+  }
+}
+
 .solar{
   font-size: 10px;
   height: 640px;
@@ -157,12 +215,11 @@ li a:hover {
 .langimg{
   width:320px;
   height:228px;
-  border-radius:10%;
+  filter: drop-shadow(1px 1px 5px black);
   
 }
 .lang{
-  color:silver;
-  font-family:  "Brush Script MT", cursive;
+  color:white;
   font-size:23px;
   
 }
@@ -197,9 +254,9 @@ li a:hover {
         width:100%;
         
 }
- 
+
 .circlebutton{
-      background-color:black;
+      background-color:#06487f;
       height: 60px;
       width: 60px;
       margin: 2.5px;
@@ -239,110 +296,6 @@ li a:hover {
             }
             
 /Removing the scroll bar during overflows/
-
-.text{
-  display: flex;
-  height: 100vh;
-  margin: 0;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(171, 184, 195);
-}
-pre {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  margin: 1rem 0 0 1rem;
-  width: fit-content;
-  padding: 2rem;
-  background-color: #151718;
-  color: white;
-  border-radius: 12px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-}
-code {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
-}
-pre {} i, b, u, em, strong {
-  text-decoration: none;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-}
-em,u,strong {
-  color:white;
-}
-
-
-.lineOfCode {
-  animation: typingEffect 1800ms steps(14, end) forwards 1000ms, caretAnim 500ms steps(2, end) 0s infinite;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-  width: 0;
-  height: auto;
-  border-right: 2px solid #ffffff;
-}
-.lineOfCode:nth-of-type(2) {
-  height: 0;
-  animation-delay: 3100ms;
-}
-.lineOfCode:nth-of-type(3) {
-  height: 0;
-  animation-delay: 5200ms;
-}
-@keyframes typingEffect {
-  0% {
-      border-width: 2px;
-  }
-  5% {
-      width: 0;
-      height: auto;
-      border-width: 2px;
-  }
-  93% {
-      border-width: 2px;
-  }
-  100% {
-      width: 14ch;
-      height: auto;
-      border-width: 0;
-  }
-}
-@keyframes caretAnim {
-  0% {
-      border-color: transparent;
-  }
-  50% {
-      border-color: #ffffff;
-  }
-  100% {
-      border-color: transparent;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
