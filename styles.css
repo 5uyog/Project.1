@@ -180,7 +180,8 @@ li a:hover {
 
 
 .d-block{
-  height: 260px;
+  height: 500px;
+  width: auto;
   margin:10px ;
 }
 
