@@ -34,7 +34,6 @@ pre {
   margin: 1rem 0 0 1rem;
   width: fit-content;
   padding: 2rem;
-  background-color: #2b2e59;
   color: white;
   border-radius: 12px;
   
@@ -151,9 +150,7 @@ pre {
 
 .navbar{
   list-style-type: none;
-  background-color: #38444d;
   margin-top: 5px;
-  border-radius:50px;
 }
 li {
   float: left;
