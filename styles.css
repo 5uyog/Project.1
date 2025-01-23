@@ -2,7 +2,7 @@
   width:80px;
   height:55px;
   display: inline;
-  
+  margin-bottom: 20px;
 }
 
 #dark{
@@ -148,38 +148,22 @@ pre {
 }
 
 
-.navbar{
-  list-style-type: none;
-  margin-top: 5px;
-}
-li {
-  float: left;
-  
-}
-li a {
-  color: white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color:hsla(210, 92%, 54%, 1);
-  font-size: 20px;
-}
-
 
 .heading{
   color:white;
   font-size:25px;
   text-shadow: 0px 0px 5px black;
   font-family:Georgia, sans-serif;
+  margin-left: 20px;
+  margin-top: 30px;
 }
 
 
 .d-block{
   height: 500px;
   width: auto;
-  margin:10px ;
+  border-radius: 30px;
+
 }
 
 .rows{
@@ -201,7 +185,7 @@ li a:hover {
      margin-bottom: 5px;
      background-image: linear-gradient(to right,black, hsla(210, 92%, 54%, 1));
      border: 0.5px solid grey;
-     border-radius: 5%;
+     border-radius: 20px;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -209,7 +193,7 @@ li a:hover {
 }
 .langbox{
   display: flex;
-  overflow: auto;z
+  overflow: auto;
   
 }
 .langimg{
